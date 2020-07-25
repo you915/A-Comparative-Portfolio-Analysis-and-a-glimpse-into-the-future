@@ -14,6 +14,8 @@ Our project starts first with a custom portfolio of 5 dividend paying stocks cho
 
 1. What is the Impact of COVID 19 on the stock market?
 
+[Sectorwise Performance](<img src="https://149347908.v2.pressablecdn.com/wp-content/uploads/2020/07/novelinvestor-sector-returns-1h-2020.png" alt="Novel Investor Sector Returns Table"/></a><small>Source: <a href="https://novelinvestor.com/">novelinvestor.com</a></small>)
+
 2. What is the effect of COVID 19 on the sectors represented in the custom portfolio?
 
 3. How has COVID19 affected the Fintech space?
