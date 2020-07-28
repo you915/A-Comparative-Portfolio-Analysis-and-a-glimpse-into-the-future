@@ -149,6 +149,19 @@ Lastly, an attempt to predict what will happen to the custom portfolio and the F
     We don't know when the next market crash will happen. It is inevitable but we cannot predict with certainity but we can prepare for the future. Keeping that in mind, we have made an attempt to evaluate the performance of our custom portfolio, the fintech ETF and the S&P 500 for the next 10 years.
 
     #### Monte Carlo Simulations:
+    We performed Monte Carlo simulations on FINX ETF, S&P 500 and the custom portfolio for the next 10 years using historical data to perform a normally distributed random selection based on the sample mean and standard deviation of historical daily returns. 
+
+    ![FINX Simulation]
+
+    Based on the simulations the target price for FINX after 10 years at a 90% confidence interval would be in the range of 30.84 - 1187.56. The median price being 155.94 giving a return of % from the current price of $(July 28, 2020)
+
+    ![S&P 500 Simulation]
+
+    Based on the simulations, the target for S&P 500 after 10 years at a 90% confidence interval would be in the range of 3040.73 - 19,763.35. The median being 7043.71 giving a return of % from the current level of 3,218.44(July 28, 2020) 
+
+    ![Custom Portfolio Simulation]
+
+    Based on the simulations the returns for Custom Portfolio after 10 years at a 90% confidence interval would be in the range of 2.13% - 18.71%. The median being 6.48%.
 
     #### Actions to take before the next crash:
     
@@ -166,15 +179,16 @@ Lastly, an attempt to predict what will happen to the custom portfolio and the F
 
 ### Data Used for Analysis
 
-Out of a list of [Top 25 S&P 500](image/stock_list.png) companies, 5 stocks were chosen(highlighted) based on high dividend payments and sector diversification. 
+1. Out of a list of [Top 25 S&P 500](image/stock_list.png) companies, 5 stocks were chosen(highlighted) based on high dividend payments and sector diversification. 
 
-Global X fintech ETF the oldest and most established fintech ETF was chosen from a list of [Top ETFs](image/etf_list.png).
+2. Global X fintech ETF the oldest and most established fintech ETF was chosen from a list of [Top ETFs](image/etf_list.png).
 
-API used for coronavirus data for USA.
+3. API used for coronavirus data for USA.
 
-Py Visualization Library.
+4. Tabulate was used to Pretty-print tabular data in Python, a library and a command-line utility.
 
 ### Limitations
+
 - Past performance is no indication of future performance, no one can say whether the stock market will perform the same way in the next 10 years. However, one can use past performance to create some hypothetical scenarios that allow you to consider possible outcomes. 
 
 ### References:
@@ -194,3 +208,5 @@ https://www.fool.com/investing/2020/06/06/yes-another-stock-market-crash-is-comi
 https://finance.yahoo.com/news/where-p-500-2030-heres-193118911.html
 
 https://www.investopedia.com/articles/personal-finance/022216/put-10000-sp-500-etf-and-wait-20-years.asp
+
+https://primexbt.com/blog/s-p-500-price-prediction-forecast/
