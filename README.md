@@ -30,9 +30,14 @@ Lastly, an attempt to predict what will happen to the custom portfolio and the F
 
 1. What is the Impact of COVID 19 on the stock market?
 
-   We studied the S&P 500 as a representative of the stock markets.  The S&P 500 achieved a record closing high of 3,386 on February 19, 2020. However, just over three weeks later, the market closed on 2,480, which represented a decline of around 26 percent in only 16 sessions due to the COVID-19 scare.
+   We studied the S&P 500 as a representative of the stock markets.  The S&P 500 achieved a record closing high of 3,386 on February 19, 2020. However, just over three weeks later, the market closed on 2,480, which represented a decline of around 26 percent in only 16 sessions due to the COVID-19 scare. This is evident from the correlation between market performance and COVID cases.
 
-   Policy actions across the globe, both in terms of monetary and fiscal stimulus packages, have cushioned the economic damage and paved the road to recovery.The S&P 500 has gained strength based on a Federal Government stimulus package and the Federal Reserve rate cuts. The S&P 500 closed Q2 2020 up 19.95% accounting for its best quarter since Q4 1998 when the index gained 20.87%. 
+    ![COVID CORR](image/covid_corr.png)
+
+   Policy actions across the globe, both in terms of monetary and fiscal stimulus packages, have cushioned the economic damage and paved the road to recovery.The S&P 500 has gained strength based on a Federal Government stimulus package and the Federal Reserve rate cuts. The S&P 500 closed Q2 2020 up 19.95% accounting for its best quarter since Q4 1998 when the index gained 20.87%. As is shown in the plot below the markets plunged initially with the rise in COVID-19 cases but have since recovered considerably.
+
+   ![COVID vs S&P](image/covid_sp500.png)
+
 
 
 2. What is the effect of COVID 19 on the sectors represented in the custom portfolio?
@@ -96,17 +101,16 @@ Lastly, an attempt to predict what will happen to the custom portfolio and the F
    
    ![Custom Portfolio](image/5stocks_in_portfolio.JPG)
 
-   Based on this chart Microsoft has had a swift recovery followed by JP Morgan. Telecommunication stocks are expected to do well but based on this plot energy stock Exxon out performed AT&T. Portfolio composition:
+   Based on this chart Microsoft has had a swift recovery followed by JP Morgan. Telecommunication stocks are expected to do well but based on this plot energy stock Exxon outperformed AT&T. Portfolio composition:
 
    | Company               | Ticker  | Weight  |
    |-----------------------| --------|---------|
    |Microsoft Corporation  | MSFT    |  50%    |
    |JP Morgan Chase & Co.  | JPM     |  20%    |
+   |Exxon Mobil Corporation| XOM     |  20%    |
    |Pfizer Inc.            | PFE     |  10%    |
    |AT&T Inc.              | T       |  10%    |
-   |Exxon Mobil Corporation| XOM     |  20%    |
-
-
+   
     #### Fintech ETF
 
     GLB X FUNDS/FINTECH THEMATIC ETF(FINX) the oldest and most established fintech ETF has been chosen to represent an industry showing the most promise in these difficult times.
@@ -170,6 +174,8 @@ API used for coronavirus data for USA.
 
 Py Visualization Library.
 
+### Limitations
+- Past performance is no indication of future performance, no one can say whether the stock market will perform the same way in the next 10 years. However, one can use past performance to create some hypothetical scenarios that allow you to consider possible outcomes. 
 
 ### References:
 
@@ -184,3 +190,7 @@ https://www.forbes.com/sites/chunkamui/2020/05/07/5-ways-our-coronavirus-recover
 https://www.bbc.com/news/science-environment-52775386
 
 https://www.fool.com/investing/2020/06/06/yes-another-stock-market-crash-is-coming-how-to-be.aspx
+
+https://finance.yahoo.com/news/where-p-500-2030-heres-193118911.html
+
+https://www.investopedia.com/articles/personal-finance/022216/put-10000-sp-500-etf-and-wait-20-years.asp
