@@ -183,13 +183,17 @@ Lastly, an attempt to predict what will happen to the custom portfolio and the F
 
 2. Global X fintech ETF the oldest and most established fintech ETF was chosen from a list of [Top ETFs](image/etf_list.png).
 
-3. API used for coronavirus data for USA.
+3. COVID-19 API was used for coronavirus data for USA.
 
 4. Tabulate was used to Pretty-print tabular data in Python, a library and a command-line utility.
 
 ### Limitations
 
 - Past performance is no indication of future performance, no one can say whether the stock market will perform the same way in the next 10 years. However, one can use past performance to create some hypothetical scenarios that allow you to consider possible outcomes. 
+
+- The method of picking the stocks in the custom portfolio could have been better based on thorough analysis of company information and industry performance.
+
+- Reviewing past financial crises data and market reactions to better study the COVID impact.
 
 ### References:
 
